@@ -67,7 +67,7 @@ button{font:inherit}
 .company-slot::before{content:"";width:8px;height:8px;border-radius:50%;background:#d9dde5;margin-right:8px}
 
 .quick{background:var(--soft)}
-.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.quick-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .quick-card{min-height:190px;padding:26px;border-radius:18px;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between;transition:transform .18s ease,border-color .18s ease}
 .quick-card:hover{transform:translateY(-4px);border-color:rgba(236,22,114,.35)}
 .quick-card small{font-size:.72rem;font-weight:900;letter-spacing:.12em;color:var(--pink)}
