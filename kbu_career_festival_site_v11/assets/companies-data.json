@@ -1,0 +1,266 @@
+[
+  {
+    "name": "(주)KPEM",
+    "group": "학과 채용 기업",
+    "id": "kpem",
+    "logo": "assets/company-logos/kpem.png",
+    "detail": "companies/kpem/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "(주)길종합건축사사무소ENG",
+    "group": "학과 채용 기업",
+    "id": "gil-architects",
+    "logo": null,
+    "detail": "companies/gil-architects/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "(주)마젠타컴퍼니",
+    "group": "학과 채용 기업",
+    "id": "magenta",
+    "logo": "assets/company-logos/magenta.png",
+    "detail": "companies/magenta/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "(주)메이브",
+    "group": "학과 채용 기업",
+    "id": "mave",
+    "logo": "assets/company-logos/mave.png",
+    "detail": "companies/mave/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "(주)세일케이엠",
+    "group": "학과 채용 기업",
+    "id": "seil-km",
+    "logo": null,
+    "detail": "companies/seil-km/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "(주)제니스일렉트로닉스",
+    "group": "학과 채용 기업",
+    "id": "zenith-electronics",
+    "logo": null,
+    "detail": "companies/zenith-electronics/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "(주)푸쉬캣",
+    "group": "학과 채용 기업",
+    "id": "pushcat",
+    "logo": null,
+    "detail": "companies/pushcat/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "게릴라빌더스건축사사무소",
+    "group": "학과 채용 기업",
+    "id": "guerrilla-builders",
+    "logo": "assets/company-logos/guerrilla-builders.png",
+    "detail": "companies/guerrilla-builders/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "더 스퀘어치과의원",
+    "group": "학과 채용 기업",
+    "id": "the-square-dental",
+    "logo": null,
+    "detail": "companies/the-square-dental/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "디에이치엠앤텍",
+    "group": "학과 채용 기업",
+    "id": "dhm-tech",
+    "logo": null,
+    "detail": "companies/dhm-tech/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "루비성형외과",
+    "group": "학과 채용 기업",
+    "id": "ruby",
+    "logo": "assets/company-logos/ruby.png",
+    "detail": "companies/ruby/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "메디인병원",
+    "group": "학과 채용 기업",
+    "id": "mediin",
+    "logo": null,
+    "detail": "companies/mediin/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "무궁화건축사사무소",
+    "group": "학과 채용 기업",
+    "id": "mugung",
+    "logo": "assets/company-logos/mugung.png",
+    "detail": "companies/mugung/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "백양엔지니어링",
+    "group": "학과 채용 기업",
+    "id": "baekyang",
+    "logo": null,
+    "detail": "companies/baekyang/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "부평세림병원",
+    "group": "학과 채용 기업",
+    "id": "serim",
+    "logo": "assets/company-logos/serim.png",
+    "detail": "companies/serim/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "북부장애인복지관",
+    "group": "학과 채용 기업",
+    "id": "bukbu",
+    "logo": "assets/company-logos/bukbu.png",
+    "detail": "companies/bukbu/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "서울아산병원",
+    "group": "학과 채용 기업",
+    "id": "asan",
+    "logo": "assets/company-logos/asan.png",
+    "detail": "companies/asan/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "아이니크성형외과",
+    "group": "학과 채용 기업",
+    "id": "inique",
+    "logo": "assets/company-logos/inique.png",
+    "detail": "companies/inique/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "아이디병원",
+    "group": "학과 채용 기업",
+    "id": "id-hospital",
+    "logo": null,
+    "detail": "companies/id-hospital/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "연세고운미소치과",
+    "group": "학과 채용 기업",
+    "id": "gounmiso",
+    "logo": "assets/company-logos/gounmiso.png",
+    "detail": "companies/gounmiso/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "연세휴치과",
+    "group": "학과 채용 기업",
+    "id": "yonsei-hue",
+    "logo": "assets/company-logos/yonsei-hue.png",
+    "detail": "companies/yonsei-hue/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "올댓모델",
+    "group": "학과 채용 기업",
+    "id": "all-that-model",
+    "logo": "assets/company-logos/all-that-model.png",
+    "detail": "companies/all-that-model/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "원더플치과",
+    "group": "학과 채용 기업",
+    "id": "wonderplant",
+    "logo": "assets/company-logos/wonderplant.png",
+    "detail": "companies/wonderplant/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "의정부추병원",
+    "group": "학과 채용 기업",
+    "id": "choo",
+    "logo": "assets/company-logos/choo.png",
+    "detail": "companies/choo/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "재일건축사사무소",
+    "group": "학과 채용 기업",
+    "id": "jaeil",
+    "logo": "assets/company-logos/jaeil.png",
+    "detail": "companies/jaeil/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "중앙대의료원 교육협력 현대병원",
+    "group": "학과 채용 기업",
+    "id": "hyundae",
+    "logo": "assets/company-logos/hyundae.png",
+    "detail": "companies/hyundae/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "카이저병원",
+    "group": "학과 채용 기업",
+    "id": "kaiser",
+    "logo": "assets/company-logos/kaiser.png",
+    "detail": "companies/kaiser/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "포근한병원",
+    "group": "학과 채용 기업",
+    "id": "pogeun",
+    "logo": "assets/company-logos/pogeun.png",
+    "detail": "companies/pogeun/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "한양대학교병원",
+    "group": "학과 채용 기업",
+    "id": "hanyang-hospital",
+    "logo": null,
+    "detail": "companies/hanyang-hospital/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "해담건축사사무소",
+    "group": "학과 채용 기업",
+    "id": "haedam",
+    "logo": "assets/company-logos/haedam.png",
+    "detail": "companies/haedam/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "금호리조트",
+    "group": "채용기업",
+    "id": "kumho-resort",
+    "logo": null,
+    "detail": "companies/kumho-resort/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "쿠팡 플필먼트 서비스",
+    "group": "채용기업",
+    "id": "coupang-fulfillment",
+    "logo": null,
+    "detail": "companies/coupang-fulfillment/index.html",
+    "recruitment_status": "pending"
+  },
+  {
+    "name": "YG 엔터테인먼트",
+    "group": "채용기업",
+    "id": "yg-entertainment",
+    "logo": null,
+    "detail": "companies/yg-entertainment/index.html",
+    "recruitment_status": "pending"
+  }
+]
