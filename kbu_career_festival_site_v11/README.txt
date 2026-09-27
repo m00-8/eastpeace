@@ -1,9 +1,7 @@
-KBU Career Festival v18
+KBU Career Festival v21
 
-이번 변경사항
-- 모든 기업 채용정보 상세 페이지에서 기업명 아래 홈페이지 표시 삭제
-- 원더플치과의원 / 부평세림병원 / 무궁건축사사무소 / 재일건축사사무소 상세 페이지의 JD 기준일 문구 삭제
-- 위 4개 페이지 하단의 공식 홈페이지 바로가기 링크도 삭제 (기타 채용 안내 문구는 유지)
-- 참여기업 페이지에서 홈페이지가 확인된 기업만 한 줄 소개 아래 홈페이지 링크 추가
-- 홈페이지 정보가 없는 기업은 공란 유지
-- 홈, 채용정보 목록, Hero, 참가신청 등 다른 영역은 변경하지 않음
+Changes from v20:
+- Home participating-company grid: 6 columns -> 5 columns on desktop
+- Home Quick Menu section removed entirely
+- Hero upper-left Kyungbok University logo removed
+- All subpages and other site files preserved
