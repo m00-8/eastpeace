@@ -11,15 +11,9 @@
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="../index.html" aria-label="경복대학교 커리어 페스티벌 홈"><img src="../assets/kbu-logo.png" alt="경복대학교"></a>
-    <nav class="desktop-nav" aria-label="주요 메뉴"><a href="../index.html">홈</a><a href="../program/index.html">프로그램</a><a href="../companies/index.html">참여기업</a><a href="../recruit/index.html">채용정보</a><a class="apply-link active" href="#registration">참가신청</a></nav>
-    <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
-  </div>
-  <nav class="mobile-nav" aria-label="모바일 메뉴"><div class="mobile-nav-inner"><a href="../index.html">홈</a><a href="../program/index.html">프로그램</a><a href="../companies/index.html">참여기업</a><a href="../recruit/index.html">채용정보</a></div></nav>
-</header>
-
+<div class="apply-back-wrap">
+  <button class="apply-back-button" type="button" onclick="if (history.length > 1) { history.back(); } else { location.href='../index.html'; }">← 뒤로가기</button>
+</div>
 <main class="apply-guide-main">
   <section class="apply-guide-hero">
     <div class="section-inner">
@@ -57,6 +51,17 @@
           <p>이력서를 미리 등록해두면 현장면접 예약 시 기업 담당자에게 지원자료를 전달할 수 있습니다.</p>
         </article>
       </div>
+
+      <section class="apply-reference-block" aria-labelledby="applyReferenceTitle">
+        <div class="apply-reference-head">
+          <p class="section-kicker">REGISTRATION GUIDE</p>
+          <h2 id="applyReferenceTitle">사전등록 및 참여 화면 안내</h2>
+          <p>사전등록을 완료하면 안내메일에서 QR과 예약·참여 메뉴를 확인할 수 있습니다.</p>
+        </div>
+        <div class="apply-reference-image-wrap">
+          <img src="../assets/apply-guide-reference.png" alt="사전등록 입력 화면과 안내메일의 QR, 현장면접 예약, 기업설명회 좌석 예약, 스탬프 투어, 이력서 등록 안내 예시">
+        </div>
+      </section>
 
       <div class="apply-guide-note">
         <strong>미리 준비하면 더 편리해요</strong>
