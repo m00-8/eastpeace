@@ -7,9 +7,9 @@
 .compact-event-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .compact-event-item{text-align:center;min-width:0}.compact-event-item img{width:78px;height:78px;object-fit:contain;margin:0 auto 12px;border-radius:50%}.compact-event-item strong{display:block;color:var(--navy);font-size:.92rem;line-height:1.45}
 .compact-benefits-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.compact-benefit{min-height:104px;display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:#f8fafc}.compact-benefit img{width:74px;height:74px;object-fit:contain;flex-shrink:0}.compact-benefit span{display:block;color:var(--pink);font-size:.72rem;font-weight:800;margin-bottom:4px}.compact-benefit strong{display:block;color:var(--navy);font-size:.94rem;line-height:1.4}
-.compact-prizes{margin-top:18px;padding-top:17px;border-top:1px solid #edf0f4}.compact-prize-title{font-size:.9rem;font-weight:900;color:var(--navy);margin-bottom:12px}.compact-prize-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}.compact-prize-grid>div{text-align:center;min-width:0}.compact-prize-grid b{display:block;color:var(--pink);font-size:.72rem}.compact-prize-grid img{height:48px;width:100%;object-fit:contain;margin:5px auto}.compact-prize-grid span{display:block;font-size:.64rem;line-height:1.3;color:#516078;word-break:keep-all}
+.compact-prizes{margin-top:18px;padding-top:17px;border-top:1px solid #edf0f4}.compact-prize-title{font-size:.9rem;font-weight:900;color:var(--navy);margin-bottom:12px}.compact-prize-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}.compact-prize-grid>div{text-align:center;min-width:0}.compact-prize-grid b{display:block;color:var(--pink);font-size:.72rem}.compact-prize-grid img{height:48px;width:100%;object-fit:contain;margin:5px auto}.compact-prize-grid span{display:block;font-size:.64rem;line-height:1.3;color:#516078;word-break:keep-all}
 
-.home-partners{background:#fff;padding-top:70px;padding-bottom:76px}.home-partners-head{margin-bottom:28px}.home-partner-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:26px 22px;align-items:center}.home-partner-logo{height:72px;display:flex;align-items:center;justify-content:center;padding:4px 8px;min-width:0}.home-partner-logo img{max-width:100%;max-height:54px;width:auto;height:auto;object-fit:contain}
+.home-partners{background:#fff;padding-top:70px;padding-bottom:76px}.home-partners-head{margin-bottom:28px}.home-partner-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:26px 22px;align-items:center}.home-partner-logo{height:72px;display:flex;align-items:center;justify-content:center;padding:4px 8px;min-width:0}.home-partner-logo img{max-width:100%;max-height:54px;width:auto;height:auto;object-fit:contain}
 .quick-grid-three{grid-template-columns:repeat(3,minmax(0,1fr))!important}.home-quick{padding-top:74px;padding-bottom:74px}
 
 /* Participating companies / recruitment directory, modeled after the provided reference without copying its day tabs. */
@@ -116,4 +116,12 @@
 @media(max-width:700px){
   .recruitment-directory-page .recruit-company-card{height:92px;min-height:92px;padding:13px 10px}
   .recruitment-directory-page .recruit-company-card h3{font-size:.82rem}
+}
+
+/* v23: recruitment list - 7 columns on desktop, border removed */
+.recruitment-directory-page .recruit-company-card{
+  border:none;
+}
+.recruitment-directory-page .recruit-company-card:hover{
+  border-color:transparent;
 }

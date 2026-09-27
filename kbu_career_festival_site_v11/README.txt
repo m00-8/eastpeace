@@ -1,8 +1,7 @@
-KBU Career Festival v22
+KBU Career Festival v24
 
-변경 파일:
-- program/index.html: 기업 설명회 일정표 + 작성중
-- recruit/index.html: 기업 로고 제거, 기업명만 표시
-- assets/additions-v15.css: 채용정보 기업명 카드 높이 조정
-
-그 외 파일은 v21과 동일합니다.
+변경사항
+- 메인 홈 참여기업 영역에 전체 참여기업 로고 표시
+- PC 기준 한 줄 6개 배치
+- 참여기업 전체 보기 버튼 삭제
+- 홈의 나머지 영역 및 모든 하위 페이지는 v23 유지
