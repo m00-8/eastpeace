@@ -99,3 +99,21 @@
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
 }
+
+
+/* v22: recruitment text-only company list */
+.recruitment-directory-page .recruit-company-card{
+  height:104px;
+  min-height:104px;
+  padding:16px 12px;
+  justify-content:center;
+}
+.recruitment-directory-page .recruit-company-card h3{
+  font-size:.9rem;
+  line-height:1.45;
+  margin:0;
+}
+@media(max-width:700px){
+  .recruitment-directory-page .recruit-company-card{height:92px;min-height:92px;padding:13px 10px}
+  .recruitment-directory-page .recruit-company-card h3{font-size:.82rem}
+}
