@@ -598,3 +598,74 @@ button{font:inherit}
     max-width:420px !important;
   }
 }
+
+
+/* v40 structural additions: entry guide, venue map, program overview, timetable, recruitment fields */
+.home-entry-guide{background:#fff;padding-top:78px;padding-bottom:42px}
+.home-floorplan{background:#fff;padding-top:30px;padding-bottom:78px}
+.home-info-head{margin-bottom:24px}
+.home-info-caption{margin:8px 0 0;color:#6b7890;font-size:.98rem}
+.entry-guide-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.entry-guide-card{border:1px solid #dfe7f0;border-radius:20px;padding:24px;background:#fff}
+.entry-guide-card.onsite{background:#fbfcfe}
+.entry-guide-label{display:inline-flex;align-items:center;min-height:34px;padding:0 13px;border-radius:999px;background:#163f75;color:#fff;font-size:.84rem;font-weight:800;margin-bottom:18px}
+.entry-guide-card.onsite .entry-guide-label{background:#536a86}
+.entry-steps{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.entry-steps li{display:grid;grid-template-columns:42px 1fr;gap:13px;padding:15px 0;border-top:1px solid #edf1f5}
+.entry-steps li:first-child{border-top:0;padding-top:0}
+.entry-steps li>span{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#eef4fb;color:#163f75;font-size:.78rem;font-weight:900}
+.entry-steps strong{display:block;color:#173e70;font-size:.98rem;margin-bottom:4px}
+.entry-steps p{margin:0;color:#6a7c92;font-size:.86rem;line-height:1.55}
+.floorplan-placeholder{min-height:300px;border:1px dashed #c8d4e1;border-radius:20px;background:#f8fafc;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px;color:#657890}
+.floorplan-placeholder-icon{font-size:2.4rem;color:#285b94;margin-bottom:12px}
+.floorplan-placeholder strong{color:#173e70;font-size:1.18rem}
+.floorplan-placeholder p{margin:7px 0 0;font-size:.9rem}
+
+.program-overview-main{background:#fff}
+.program-overview-hero{padding:72px 0 44px;background:#f7f9fc;border-bottom:1px solid #edf1f5}
+.program-overview-hero h1,.timetable-hero h1{margin:4px 0 12px;color:#123d72;font-size:clamp(2.25rem,4vw,3.5rem);letter-spacing:-.05em}
+.program-overview-hero p,.timetable-hero p{margin:0;color:#657890;line-height:1.65}
+.program-overview-section{padding:64px 0}
+.program-overview-section.alt{background:#f8fafc}
+.program-section-title{display:flex;align-items:flex-start;gap:14px;margin-bottom:24px}
+.program-section-title>span{width:38px;height:38px;flex:0 0 38px;border-radius:10px;background:#173e70;color:#fff;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:900}
+.program-section-title h2{margin:0;color:#123d72;font-size:1.7rem;letter-spacing:-.04em}
+.program-section-title p{margin:4px 0 0;color:#718198;font-size:.88rem}
+.briefing-company-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.briefing-company-grid article{min-height:104px;border:1px solid #dfe7f0;border-radius:16px;background:#fff;padding:22px;display:flex;align-items:center}
+.briefing-company-grid strong{color:#183f72;font-size:1.06rem}
+.program-card-grid{display:grid;gap:16px}
+.program-card-grid.three{grid-template-columns:repeat(3,1fr)}
+.program-card-grid.two{grid-template-columns:repeat(2,1fr)}
+.program-info-card{border:1px solid #e0e7ef;border-radius:16px;background:#fff;padding:22px;min-height:150px}
+.program-org{color:#5c7390;font-size:.8rem;font-weight:800;margin-bottom:8px}
+.program-info-card h3{margin:0 0 10px;color:#173e70;font-size:1.04rem;letter-spacing:-.02em}
+.program-info-card p{margin:0;color:#66798f;font-size:.9rem;line-height:1.65}
+
+.company-recruit-area{margin:8px 0 10px;color:#173e70;font-size:.88rem;font-weight:700}
+.company-recruit-area span{color:#657890;font-size:.8rem;font-weight:800}
+
+.timetable-main{min-height:72vh;background:#fff}
+.timetable-hero{padding:72px 0 44px;background:#f7f9fc;border-bottom:1px solid #edf1f5}
+.timetable-body{padding:64px 0 96px}
+.timetable-placeholder{min-height:320px;border:1px dashed #c8d4e1;border-radius:20px;background:#f8fafc;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px}
+.timetable-placeholder>span{font-size:2.4rem;margin-bottom:12px}
+.timetable-placeholder strong{color:#173e70;font-size:1.25rem}
+.timetable-placeholder p{margin:8px 0 0;color:#6d7f94;font-size:.92rem}
+
+@media(max-width:900px){
+  .entry-guide-grid,.program-card-grid.two{grid-template-columns:1fr}
+  .briefing-company-grid,.program-card-grid.three{grid-template-columns:1fr}
+}
+@media(max-width:700px){
+  .home-entry-guide{padding-top:50px;padding-bottom:26px}
+  .home-floorplan{padding-top:22px;padding-bottom:58px}
+  .entry-guide-card{padding:18px}
+  .floorplan-placeholder{min-height:220px;padding:24px 18px}
+  .program-overview-hero,.timetable-hero{padding:48px 0 34px}
+  .program-overview-section{padding:46px 0}
+  .program-section-title h2{font-size:1.42rem}
+  .program-info-card{min-height:auto;padding:18px}
+  .timetable-body{padding:46px 0 72px}
+  .timetable-placeholder{min-height:230px;padding:24px 18px}
+}

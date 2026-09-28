@@ -9,7 +9,8 @@
     "homepage": "",
     "logo": "assets/company-logos/kpem.png",
     "recruit_detail": "recruit/kpem/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "㈜길종합건축사사무소ENG",
@@ -21,7 +22,8 @@
     "homepage": "",
     "logo": "assets/company-logos/gil-architects.png",
     "recruit_detail": "recruit/gil-architects/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "㈜마젠타컴퍼니",
@@ -33,7 +35,8 @@
     "homepage": "http://magentac.com",
     "logo": "assets/company-logos/magenta.png",
     "recruit_detail": "recruit/magenta/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "㈜메이브",
@@ -45,7 +48,8 @@
     "homepage": "",
     "logo": "assets/company-logos/mave.png",
     "recruit_detail": "recruit/mave/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "디자인"
   },
   {
     "name": "㈜세일케이엠",
@@ -57,7 +61,8 @@
     "homepage": "",
     "logo": "assets/company-logos/seil-km.png",
     "recruit_detail": "recruit/seil-km/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "㈜제니스일렉트로닉스",
@@ -69,7 +74,8 @@
     "homepage": "http://www.zenithelec.com",
     "logo": "assets/company-logos/zenith-electronics.png",
     "recruit_detail": "recruit/zenith-electronics/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "㈜푸쉬캣",
@@ -81,7 +87,8 @@
     "homepage": "",
     "logo": "assets/company-logos/pushcat.png",
     "recruit_detail": "recruit/pushcat/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "게릴라빌더스건축사사무소",
@@ -93,7 +100,8 @@
     "homepage": "http://www.gbldrs.com",
     "logo": "assets/company-logos/guerrilla-builders.png",
     "recruit_detail": "recruit/guerrilla-builders/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "더 스퀘어치과의원",
@@ -105,7 +113,8 @@
     "homepage": "http://thesquaredc.co.kr",
     "logo": "assets/company-logos/the-square-dental.png",
     "recruit_detail": "recruit/the-square-dental/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "치과위생사"
   },
   {
     "name": "디에이치엠앤텍",
@@ -117,7 +126,8 @@
     "homepage": "",
     "logo": "assets/company-logos/dhm-tech.png",
     "recruit_detail": "recruit/dhm-tech/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "임상병리사"
   },
   {
     "name": "루비성형외과",
@@ -129,7 +139,8 @@
     "homepage": "http://rubyps.co.kr",
     "logo": "assets/company-logos/ruby.png",
     "recruit_detail": "recruit/ruby/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "메디인병원",
@@ -141,7 +152,8 @@
     "homepage": "http://www.medi-yin.co.kr",
     "logo": "assets/company-logos/mediin.png",
     "recruit_detail": "recruit/mediin/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "간호사"
   },
   {
     "name": "무궁건축사사무소",
@@ -153,7 +165,8 @@
     "homepage": "http://moooogoong.com",
     "logo": "assets/company-logos/mugung.png",
     "recruit_detail": "recruit/mugung/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "건축설계"
   },
   {
     "name": "백양엔지니어링㈜",
@@ -165,7 +178,8 @@
     "homepage": "http://www.baekyangeng.co.kr",
     "logo": "assets/company-logos/baekyang.png",
     "recruit_detail": "recruit/baekyang/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "부평세림병원",
@@ -177,7 +191,8 @@
     "homepage": "http://www.iserim.co.kr",
     "logo": "assets/company-logos/serim.png",
     "recruit_detail": "recruit/serim/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "간호사"
   },
   {
     "name": "북부장애인복지관",
@@ -189,7 +204,8 @@
     "homepage": "",
     "logo": "assets/company-logos/bukbu.png",
     "recruit_detail": "recruit/bukbu/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "서울아산병원",
@@ -201,7 +217,8 @@
     "homepage": "https://www.amc.seoul.kr",
     "logo": "assets/company-logos/asan.png",
     "recruit_detail": "recruit/asan/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "아이니크성형외과",
@@ -213,7 +230,8 @@
     "homepage": "",
     "logo": "assets/company-logos/inique.png",
     "recruit_detail": "recruit/inique/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "아이디병원",
@@ -225,7 +243,8 @@
     "homepage": "https://www.idhospital.com",
     "logo": "assets/company-logos/id-hospital.png",
     "recruit_detail": "recruit/id-hospital/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "연세고운미소치과",
@@ -237,7 +256,8 @@
     "homepage": "https://misosmile.com",
     "logo": "assets/company-logos/gounmiso.png",
     "recruit_detail": "recruit/gounmiso/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "치과위생사"
   },
   {
     "name": "연세휴치과",
@@ -249,7 +269,8 @@
     "homepage": "https://www.huedental.co.kr",
     "logo": "assets/company-logos/yonsei-hue.png",
     "recruit_detail": "recruit/yonsei-hue/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "치과위생사"
   },
   {
     "name": "올댓모델",
@@ -261,7 +282,8 @@
     "homepage": "http://www.allthatmodel.co.kr",
     "logo": "assets/company-logos/all-that-model.png",
     "recruit_detail": "recruit/all-that-model/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "리셉셔니스트"
   },
   {
     "name": "원더플치과의원",
@@ -273,7 +295,8 @@
     "homepage": "http://wonderplant.kr",
     "logo": "assets/company-logos/wonderplant.png",
     "recruit_detail": "recruit/wonderplant/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "치과위생사"
   },
   {
     "name": "의정부추병원",
@@ -285,7 +308,8 @@
     "homepage": "",
     "logo": "assets/company-logos/choo.png",
     "recruit_detail": "recruit/choo/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "간호사"
   },
   {
     "name": "재일건축사사무소",
@@ -297,7 +321,8 @@
     "homepage": "https://blog.naver.com/jia2310",
     "logo": "assets/company-logos/jaeil.png",
     "recruit_detail": "recruit/jaeil/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "건축설계·감리"
   },
   {
     "name": "중앙대의료원 교육협력 현대병원",
@@ -309,7 +334,8 @@
     "homepage": "https://www.hdgh.co.kr",
     "logo": "assets/company-logos/hyundae.png",
     "recruit_detail": "recruit/hyundae/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "간호사"
   },
   {
     "name": "카이저병원",
@@ -321,7 +347,8 @@
     "homepage": "http://www.kaiserh.co.kr",
     "logo": "assets/company-logos/kaiser.png",
     "recruit_detail": "recruit/kaiser/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "포근한재활병원",
@@ -333,7 +360,8 @@
     "homepage": "",
     "logo": "assets/company-logos/pogeun.png",
     "recruit_detail": "recruit/pogeun/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "한양대학교병원",
@@ -345,7 +373,8 @@
     "homepage": "https://www.hyumc.com",
     "logo": "assets/company-logos/hanyang-hospital.png",
     "recruit_detail": "recruit/hanyang-hospital/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": "임상병리사"
   },
   {
     "name": "해담건축사사무소",
@@ -357,7 +386,8 @@
     "homepage": "https://haedamarchi.com",
     "logo": "assets/company-logos/haedam.png",
     "recruit_detail": "recruit/haedam/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "금호리조트㈜",
@@ -369,7 +399,8 @@
     "homepage": "https://www.kumhoresort.co.kr",
     "logo": "assets/company-logos/kumho-resort.png",
     "recruit_detail": "recruit/kumho-resort/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
     "name": "쿠팡풀필먼트서비스㈜",
@@ -381,18 +412,20 @@
     "homepage": "",
     "logo": "assets/company-logos/coupang-fulfillment.png",
     "recruit_detail": "recruit/coupang-fulfillment/index.html",
-    "logo_exists": true
+    "logo_exists": true,
+    "recruit_area": ""
   },
   {
-    "name": "㈜와이지엔터테인먼트",
-    "id": "yg-entertainment",
+    "name": "SK하이닉스",
+    "id": "sk-hynix",
     "group": "채용기업",
     "size": "",
-    "region": "서울 마포",
-    "description": "아티스트 발굴과 음악 제작을 하는 국내 대표 종합 엔터테인먼트기업",
-    "homepage": "https://www.ygfamily.com",
-    "logo": "assets/company-logos/yg-entertainment.png",
-    "recruit_detail": "recruit/yg-entertainment/index.html",
-    "logo_exists": true
+    "region": "",
+    "description": "",
+    "homepage": "",
+    "logo": "assets/company-logos/sk-hynix.png",
+    "recruit_detail": "",
+    "logo_exists": true,
+    "recruit_area": ""
   }
 ]

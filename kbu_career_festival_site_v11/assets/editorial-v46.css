@@ -1,0 +1,52 @@
+/* v46 — boxed directory tabs + boxed apply step subtitles */
+
+/* Participating companies / recruitment: make the clickable category filters read as tabs. */
+.editorial-v44 .directory-filters{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.editorial-v44 .filter-button{
+  min-height:40px;
+  padding:9px 18px;
+  border:1px solid #d9dde3;
+  border-radius:6px;
+  background:#fff;
+  color:#626b76;
+  font-size:.84rem;
+  font-weight:700;
+  line-height:1.2;
+  transition:border-color .18s ease,background-color .18s ease,color .18s ease;
+}
+.editorial-v44 .filter-button:hover{
+  border-color:#e7a9c1;
+  background:#fff8fb;
+  color:#b82162;
+}
+.editorial-v44 .filter-button.selected{
+  border-color:#e575a1;
+  background:#fff0f5;
+  color:#c82667;
+}
+
+/* Apply: keep the steps editorial, but box only each step subtitle. */
+.apply-guide-page-v32.editorial-v44 .apply-v32-step h2{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  min-height:52px;
+  margin:0 0 16px;
+  padding:11px 14px;
+  border:1px solid #efd8e2;
+  border-radius:6px;
+  background:#fff3f7;
+  color:var(--ed-ink);
+  text-align:left;
+  line-height:1.35;
+}
+
+@media(max-width:700px){
+  .editorial-v44 .directory-filters{gap:7px}
+  .editorial-v44 .filter-button{padding:8px 13px;font-size:.8rem}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-step h2{min-height:0;padding:10px 12px}
+}

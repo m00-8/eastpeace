@@ -1,0 +1,380 @@
+/* v44 — shared editorial system for subpages + home entry-row correction.
+   Keeps content/links intact; reduces rounded-card / gradient / emoji-heavy AI cues. */
+
+.editorial-v44{
+  --ed-ink:#172033;
+  --ed-navy:#173a66;
+  --ed-muted:#6b7480;
+  --ed-line:#dde1e6;
+  --ed-soft:#f7f7f6;
+  --ed-pink:#ec1672;
+  background:#fff;
+  color:var(--ed-ink);
+}
+
+/* Shared navigation */
+.editorial-v44 .site-header{background:#fff;border-bottom:1px solid #e7e9ec}
+.editorial-v44 .header-inner{height:72px}
+.editorial-v44 .brand img{height:44px}
+.editorial-v44 .desktop-nav{gap:30px;font-size:.9rem;font-weight:650}
+.editorial-v44 .desktop-nav a:not(.apply-link){padding:26px 0 23px;color:#353b44}
+.editorial-v44 .desktop-nav a:not(.apply-link)::after{bottom:0;height:2px;background:var(--ed-pink)}
+.editorial-v44 .desktop-nav a.active{color:var(--ed-pink)}
+.editorial-v44 .apply-link{padding:10px 16px;border-radius:999px;background:var(--ed-pink);color:#fff;font-weight:700}
+.editorial-v44 .apply-link:hover{background:var(--pink-dark);transform:none}
+.editorial-v44 .site-footer{background:#0e1d31;border-top:1px solid rgba(255,255,255,.08)}
+.editorial-v44 .mobile-apply{border-radius:999px;background:var(--ed-pink);box-shadow:0 10px 28px rgba(236,22,114,.28)}
+
+/* Remove decorative English kickers across redesigned pages. */
+.editorial-v44 .section-kicker{display:none!important}
+
+/* HOME: only the title row receives the pale pink fill. */
+.home-editorial-v41.editorial-v44 .entry-guide-card,
+.home-editorial-v41.editorial-v44 .entry-guide-card.onsite{
+  padding:0;
+  background:#fff;
+  border:0;
+  border-radius:0;
+}
+.home-editorial-v41.editorial-v44 .entry-guide-label,
+.home-editorial-v41.editorial-v44 .entry-guide-card.onsite .entry-guide-label{
+  display:block;
+  width:100%;
+  margin:0;
+  padding:14px 16px;
+  min-height:0;
+  border-radius:0;
+  border-top:2px solid var(--ed-pink);
+  border-bottom:1px solid #f2d7e3;
+  background:#fff2f7!important;
+  color:var(--ed-ink);
+  font-size:1rem;
+  font-weight:800;
+}
+.home-editorial-v41.editorial-v44 .entry-steps{padding:0 16px 4px;background:#fff}
+
+/* Common subpage hero */
+.editorial-v44 .program-overview-hero,
+.editorial-v44 .timetable-hero,
+.editorial-v44 .directory-blue-hero{
+  height:auto;
+  min-height:0;
+  padding:68px 0 34px;
+  background:#fff;
+  border-bottom:1px solid var(--ed-line);
+  color:var(--ed-ink);
+  display:block;
+}
+.editorial-v44 .program-overview-hero h1,
+.editorial-v44 .timetable-hero h1,
+.editorial-v44 .directory-blue-hero h1{
+  margin:0;
+  color:var(--ed-ink);
+  text-align:left;
+  font-size:clamp(2.25rem,4vw,3.5rem);
+  line-height:1.08;
+  letter-spacing:-.05em;
+  font-weight:800;
+}
+.editorial-v44 .program-overview-hero p,
+.editorial-v44 .timetable-hero p{
+  max-width:780px;
+  margin:14px 0 0;
+  color:var(--ed-muted);
+  font-size:.95rem;
+  line-height:1.75;
+}
+
+/* PROGRAM — editorial lists instead of floating cards */
+.editorial-v44 .program-overview-section{padding:68px 0;background:#fff!important;border-bottom:1px solid var(--ed-line)}
+.editorial-v44 .program-section-title{display:block;margin-bottom:30px}
+.editorial-v44 .program-section-title>span{display:none}
+.editorial-v44 .program-section-title h2{margin:0;color:var(--ed-ink);font-size:1.8rem;letter-spacing:-.04em}
+.editorial-v44 .program-section-title p{margin:8px 0 0;color:var(--ed-muted);font-size:.88rem}
+.editorial-v44 .briefing-company-grid,
+.editorial-v44 .program-card-grid,
+.editorial-v44 .program-card-grid.two,
+.editorial-v44 .program-card-grid.three{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:0 42px;
+  border-top:2px solid var(--ed-ink);
+}
+.editorial-v44 .briefing-company-grid article,
+.editorial-v44 .program-info-card{
+  min-height:0;
+  padding:22px 0;
+  border:0;
+  border-bottom:1px solid var(--ed-line);
+  border-radius:0;
+  background:transparent;
+}
+.editorial-v44 .briefing-company-grid strong{color:var(--ed-ink);font-size:1.02rem}
+.editorial-v44 .program-org{margin-bottom:6px;color:#8a4a69;font-size:.76rem;font-weight:750}
+.editorial-v44 .program-info-card h3{margin:0 0 8px;color:var(--ed-ink);font-size:1rem}
+.editorial-v44 .program-info-card p{margin:0;color:var(--ed-muted);font-size:.88rem;line-height:1.7}
+
+/* TIMETABLE — flat placeholder, no decorative timer icon */
+.editorial-v44 .timetable-body{padding:58px 0 94px}
+.editorial-v44 .timetable-placeholder{
+  min-height:300px;
+  padding:38px 20px;
+  border:1px solid #cfd4da;
+  border-radius:0;
+  background:#fff;
+}
+.editorial-v44 .timetable-placeholder>span{display:none}
+.editorial-v44 .timetable-placeholder strong{color:var(--ed-ink);font-size:1.12rem}
+.editorial-v44 .timetable-placeholder p{color:var(--ed-muted);font-size:.88rem}
+
+/* COMPANY + RECRUITMENT directory */
+.editorial-v44 .directory-blue-page{padding:0 0 88px;background:#fff}
+.editorial-v44 .directory-shell,
+.editorial-v44 .directory-blue-page .directory-shell{
+  padding:42px 0 0;
+  border:0;
+  border-radius:0;
+  background:#fff;
+  box-shadow:none;
+}
+.editorial-v44 .directory-toolbar{
+  margin:0;
+  padding:0 0 24px;
+  border-bottom:1px solid var(--ed-line);
+  align-items:end;
+}
+.editorial-v44 .directory-filters{gap:4px 22px}
+.editorial-v44 .filter-button{
+  min-height:36px;
+  padding:4px 0 8px;
+  border:0;
+  border-bottom:2px solid transparent;
+  border-radius:0;
+  background:transparent;
+  color:#69717c;
+  font-size:.85rem;
+  font-weight:700;
+}
+.editorial-v44 .filter-button.selected{
+  background:transparent;
+  color:var(--ed-pink);
+  border-color:var(--ed-pink);
+}
+.editorial-v44 .directory-search{width:270px}
+.editorial-v44 .directory-search input{
+  min-height:43px;
+  border:0;
+  border-bottom:1px solid #aeb5bd;
+  border-radius:0;
+  padding:10px 2px;
+  color:var(--ed-ink);
+}
+.editorial-v44 .directory-count{margin:26px 0 22px;color:var(--ed-ink)}
+.editorial-v44 .directory-count span{color:var(--ed-muted)}
+
+.editorial-v44 .company-info-grid{gap:0 34px}
+.editorial-v44 .company-info-card{
+  min-height:300px;
+  padding:28px 0;
+  border:0;
+  border-top:1px solid var(--ed-line);
+  border-radius:0;
+  background:#fff;
+}
+.editorial-v44 .company-info-logo{height:86px;margin-bottom:18px;justify-content:flex-start}
+.editorial-v44 .company-info-logo img{max-height:68px}
+.editorial-v44 .company-info-card h3{color:var(--ed-ink);font-size:1.02rem}
+.editorial-v44 .company-recruit-area{color:var(--ed-pink);font-size:.84rem}
+.editorial-v44 .company-recruit-area span{color:#8b929b}
+.editorial-v44 .company-meta{margin-bottom:14px}
+.editorial-v44 .company-badge{
+  min-height:0;
+  padding:0;
+  border-radius:0;
+  background:transparent;
+  color:#536171;
+  font-size:.76rem;
+}
+.editorial-v44 .company-region{font-size:.78rem;color:#737d89}
+.editorial-v44 .company-description{padding-top:14px;border-top:1px solid #eceef1;color:#4f5965;font-size:.86rem}
+.editorial-v44 .company-homepage{margin-top:14px;color:#536171;font-size:.76rem;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+
+/* Recruitment directory keeps its established grid count, but loses card styling. */
+.editorial-v44 .recruit-download-bar{
+  margin-bottom:34px;
+  padding:20px 0;
+  border:0;
+  border-top:2px solid var(--ed-ink);
+  border-bottom:1px solid var(--ed-line);
+  border-radius:0;
+  background:#fff;
+}
+.editorial-v44 .recruit-download-copy strong{color:var(--ed-ink)}
+.editorial-v44 .recruit-download-copy span{color:var(--ed-muted)}
+.editorial-v44 .recruit-download-button{border-radius:999px;background:var(--ed-pink)}
+.editorial-v44 .recruit-company-grid{gap:0 18px}
+.editorial-v44 .recruitment-directory-page .recruit-company-card{
+  height:88px;
+  min-height:88px;
+  padding:12px 4px;
+  border:0;
+  border-top:1px solid var(--ed-line);
+  border-radius:0;
+  background:#fff;
+  box-shadow:none;
+  transform:none;
+}
+.editorial-v44 .recruitment-directory-page .recruit-company-card:hover{background:#fff9fb;transform:none;box-shadow:none}
+.editorial-v44 .recruitment-directory-page .recruit-company-card h3{color:var(--ed-ink);font-size:.86rem}
+
+/* Recruitment detail — table/editorial treatment */
+.editorial-v44 .recruitment-detail{padding:30px 0 90px;background:#fff}
+.editorial-v44 .breadcrumbs{margin-bottom:38px;color:#7a828c}
+.editorial-v44 .employer-header{gap:34px;padding:18px 0 38px;border-bottom:2px solid var(--ed-ink)}
+.editorial-v44 .employer-logo{width:240px;min-height:130px;padding:18px;border:1px solid var(--ed-line);border-radius:0}
+.editorial-v44 .employer-header h1{color:var(--ed-ink)}
+.editorial-v44 .job-summary{gap:0;margin:0 0 42px;border-bottom:1px solid var(--ed-line)}
+.editorial-v44 .job-summary-item{
+  min-height:86px;
+  padding:18px 20px;
+  border:0;
+  border-right:1px solid var(--ed-line);
+  border-radius:0;
+  background:#fff;
+}
+.editorial-v44 .job-summary-item:last-child{border-right:0}
+.editorial-v44 .job-summary-item span{color:#858d96}
+.editorial-v44 .job-summary-item strong{color:var(--ed-ink)}
+.editorial-v44 .job-section{
+  margin:0;
+  padding:34px 0;
+  border:0;
+  border-bottom:1px solid var(--ed-line);
+  border-radius:0;
+  background:#fff;
+}
+.editorial-v44 .job-section-heading{margin-bottom:24px}
+.editorial-v44 .job-section-heading h2{color:var(--ed-ink);font-size:1.28rem}
+.editorial-v44 .job-badge{border-radius:999px;background:#fff1f6;color:var(--ed-pink)}
+.editorial-v44 .job-data-grid{border-top:2px solid var(--ed-ink);border-left:0}
+.editorial-v44 .job-data-item{border-right:0;border-bottom:1px solid var(--ed-line)}
+.editorial-v44 .job-data-item dt{background:#fafafa;color:#69717c}
+.editorial-v44 .job-data-item dd{color:#303944}
+.editorial-v44 .job-text-block h3,
+.editorial-v44 .job-link-row strong{color:#7a838d}
+.editorial-v44 .job-text-block p,
+.editorial-v44 .job-benefits li{color:#38424d}
+.editorial-v44 .job-links a{color:var(--ed-pink)}
+.editorial-v44 .recruitment-pending{margin:38px 0 28px;padding:64px 24px;border-radius:0;background:#fafafa;border-top:1px solid var(--ed-line);border-bottom:1px solid var(--ed-line)}
+.editorial-v44 .pending-symbol{display:none}
+.editorial-v44 .recruitment-pending h2{color:var(--ed-ink)}
+.editorial-v44 .back-to-directory{color:var(--ed-ink)}
+.editorial-v44 .back-to-directory:hover{color:var(--ed-pink)}
+
+/* APPLY — remove the colorful numbered-card language, preserve the real screenshots. */
+.apply-guide-page-v32.editorial-v44{--ed-shell:min(1160px,calc(100% - 48px));background:#fff}
+.apply-guide-page-v32.editorial-v44 .apply-v32-shell{width:var(--ed-shell);padding:28px 0 76px}
+.apply-guide-page-v32.editorial-v44 .apply-v32-back{color:#545d68;font-weight:650}
+.apply-guide-page-v32.editorial-v44 .apply-v32-main{padding-top:44px}
+.apply-guide-page-v32.editorial-v44 .apply-v32-intro{padding-bottom:30px;margin-bottom:0;border-bottom:2px solid var(--ed-ink)}
+.apply-guide-page-v32.editorial-v44 .apply-v32-kicker{display:none}
+.apply-guide-page-v32.editorial-v44 .apply-v32-intro h1{color:var(--ed-ink);font-size:clamp(2.4rem,4.5vw,3.6rem)}
+.apply-guide-page-v32.editorial-v44 .apply-v32-desc{color:var(--ed-muted);font-size:.96rem}
+.apply-guide-page-v32.editorial-v44 .apply-v32-steps{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:0;
+  margin-top:0;
+  border-bottom:1px solid var(--ed-line);
+}
+.apply-guide-page-v32.editorial-v44 .apply-v32-arrow,
+.apply-guide-page-v32.editorial-v44 .apply-v32-num,
+.apply-guide-page-v32.editorial-v44 .apply-v32-icon{display:none}
+.apply-guide-page-v32.editorial-v44 .apply-v32-step,
+.apply-guide-page-v32.editorial-v44 .apply-v32-step.step-1,
+.apply-guide-page-v32.editorial-v44 .apply-v32-step.step-2,
+.apply-guide-page-v32.editorial-v44 .apply-v32-step.step-3,
+.apply-guide-page-v32.editorial-v44 .apply-v32-step.step-4,
+.apply-guide-page-v32.editorial-v44 .apply-v32-step.step-5{
+  min-height:190px;
+  max-width:none;
+  width:auto;
+  padding:26px 22px;
+  border:0;
+  border-right:1px solid var(--ed-line);
+  border-radius:0;
+  background:#fff;
+  box-shadow:none;
+}
+.apply-guide-page-v32.editorial-v44 .apply-v32-step:last-child{border-right:0}
+.apply-guide-page-v32.editorial-v44 .apply-v32-step h2{margin:0 0 12px;text-align:left;color:var(--ed-ink);font-size:1.02rem}
+.apply-guide-page-v32.editorial-v44 .apply-v32-step p{color:var(--ed-muted);font-size:.84rem;line-height:1.7}
+.apply-guide-page-v32.editorial-v44 .apply-v32-divider{margin:48px 0 0;background:transparent}
+.apply-guide-page-v32.editorial-v44 .apply-v32-flow-title{margin:0 0 24px;padding-top:0}
+.apply-guide-page-v32.editorial-v44 .apply-v32-flow-title>span{display:none}
+.apply-guide-page-v32.editorial-v44 .apply-v32-flow-title h2{color:var(--ed-ink);font-size:1.75rem}
+.apply-guide-page-v32.editorial-v44 .apply-v32-flow-title p{color:var(--ed-muted)}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-grid{gap:36px}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-card,
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-card-blue{
+  padding:0;
+  border:0;
+  border-top:2px solid var(--ed-ink);
+  border-radius:0;
+  background:#fff;
+  box-shadow:none;
+}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-card-head{padding:18px 0 16px;margin:0;border-bottom:1px solid var(--ed-line)}
+.apply-guide-page-v32.editorial-v44 .apply-v32-badge{display:none}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-card-head h3{color:var(--ed-ink);font-size:1.08rem}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-card-head p{color:var(--ed-muted)}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-wrap{padding:20px 0 0}
+.apply-guide-page-v32.editorial-v44 .apply-v32-image-wrap img{border-radius:0}
+.apply-guide-page-v32.editorial-v44 .apply-v32-cta{
+  margin-top:56px;
+  padding:34px 36px;
+  border-radius:0;
+  background:#142d4f;
+}
+.apply-guide-page-v32.editorial-v44 .apply-v32-cta a{border-radius:999px;background:var(--ed-pink)}
+
+@media(max-width:1000px){
+  .editorial-v44 .program-card-grid.two,
+  .editorial-v44 .program-card-grid.three,
+  .editorial-v44 .briefing-company-grid{grid-template-columns:1fr}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-step{border-bottom:1px solid var(--ed-line)}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-step.step-5{grid-column:1/-1}
+}
+
+@media(max-width:700px){
+  .editorial-v44 .header-inner{height:64px}
+  .editorial-v44 .brand img{height:38px}
+  .home-editorial-v41.editorial-v44 .entry-guide-label{padding:13px 14px}
+  .home-editorial-v41.editorial-v44 .entry-steps{padding:0 14px 2px}
+  .editorial-v44 .program-overview-hero,
+  .editorial-v44 .timetable-hero,
+  .editorial-v44 .directory-blue-hero{padding:48px 0 28px}
+  .editorial-v44 .program-overview-section{padding:48px 0}
+  .editorial-v44 .directory-shell,
+  .editorial-v44 .directory-blue-page .directory-shell{padding-top:28px}
+  .editorial-v44 .directory-toolbar{align-items:stretch;gap:20px}
+  .editorial-v44 .directory-search{width:100%}
+  .editorial-v44 .company-info-grid{gap:0}
+  .editorial-v44 .company-info-card{min-height:0;padding:24px 0}
+  .editorial-v44 .recruit-download-bar{align-items:stretch;padding:18px 0}
+  .editorial-v44 .recruit-download-button{width:100%}
+  .editorial-v44 .employer-header{gap:22px;padding-top:8px}
+  .editorial-v44 .employer-logo{width:220px;min-height:120px}
+  .editorial-v44 .job-summary{grid-template-columns:1fr 1fr}
+  .editorial-v44 .job-summary-item{border-right:0;border-top:1px solid var(--ed-line)}
+  .editorial-v44 .job-section{padding:28px 0}
+  .apply-guide-page-v32.editorial-v44{--ed-shell:calc(100% - 28px)}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-main{padding-top:30px}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-steps{grid-template-columns:1fr}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-step,
+  .apply-guide-page-v32.editorial-v44 .apply-v32-step.step-5{grid-column:auto;min-height:0;padding:22px 0;border-right:0}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-image-card{padding:0}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-image-wrap{padding:16px 0 0}
+  .apply-guide-page-v32.editorial-v44 .apply-v32-cta{padding:28px 22px;align-items:flex-start}
+}

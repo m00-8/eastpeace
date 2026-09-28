@@ -1,0 +1,53 @@
+/* v47 — blue accent revision
+   Keep the established editorial layout and pink CTA/header accents.
+   Only convert pale-pink information boxes and main subpage title panels to blue. */
+
+:root{
+  --v47-blue-soft:#f1f8ff;
+  --v47-blue-soft-border:#d5e8f7;
+  --v47-blue-title:#dceeff;
+  --v47-blue-title-border:#c5def3;
+  --v47-blue-accent:#2b6fa8;
+}
+
+/* HOME — registration-type title rows only */
+.home-editorial-v41.editorial-v44 .entry-guide-label,
+.home-editorial-v41.editorial-v44 .entry-guide-card.onsite .entry-guide-label{
+  background:var(--v47-blue-soft)!important;
+  border-top-color:#8bbce4!important;
+  border-bottom-color:var(--v47-blue-soft-border)!important;
+}
+
+/* Five main subpages — title area */
+.editorial-v44 .program-overview-hero,
+.editorial-v44 .timetable-hero,
+.editorial-v44 .directory-blue-hero{
+  background:var(--v47-blue-title)!important;
+  border-bottom-color:var(--v47-blue-title-border)!important;
+}
+
+.apply-guide-page-v32.editorial-v44 .apply-v32-intro.subpage-title-panel{
+  background:var(--v47-blue-title)!important;
+  border-bottom-color:var(--v47-blue-title-border)!important;
+  box-shadow:0 0 0 100vmax var(--v47-blue-title)!important;
+}
+
+/* Participating companies / recruitment category tabs */
+.editorial-v44 .filter-button:hover{
+  border-color:#a9cce8!important;
+  background:#f6fbff!important;
+  color:#285f8f!important;
+}
+.editorial-v44 .filter-button.selected{
+  border-color:#8bbce4!important;
+  background:var(--v47-blue-soft)!important;
+  color:var(--v47-blue-accent)!important;
+}
+
+/* Apply step subtitle boxes */
+.apply-guide-page-v32.editorial-v44 .apply-v32-step h2{
+  border-color:var(--v47-blue-soft-border)!important;
+  background:var(--v47-blue-soft)!important;
+}
+
+/* Keep all primary registration CTA/header pink as previously approved. */
