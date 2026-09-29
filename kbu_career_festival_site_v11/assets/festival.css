@@ -602,3 +602,60 @@ p{margin:0}
   .briefing-layout{grid-template-columns:1fr;gap:18px}
   .briefing-photo{aspect-ratio:3/2}
 }
+
+/* =========================================================
+   v55 — 하단 고정 버튼 표시 제어 · 이미지 확대 보기
+   ========================================================= */
+.mobile-apply{transition:transform .28s ease, opacity .28s ease}
+.mobile-apply.is-hidden{transform:translateY(140%);opacity:0;pointer-events:none}
+
+.timetable-image-wrap a[data-zoom]{cursor:zoom-in}
+.zoom-open,.zoom-open body{overflow:hidden}
+.zoom-open .mobile-apply{display:none}
+.zoom-viewer{position:fixed;inset:0;z-index:200;background:#0a1a36;display:flex;flex-direction:column}
+.zoom-viewer[hidden]{display:none!important}
+.zoom-stage{flex:1;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;touch-action:none;cursor:zoom-in;padding:56px 12px 88px}
+.zoom-viewer.is-zoomed .zoom-stage{cursor:grab}
+.zoom-img{max-width:100%;max-height:100%;width:auto;height:auto;transform-origin:center center;user-select:none;-webkit-user-drag:none;border-radius:8px;background:#fff}
+.zoom-close{position:absolute;top:calc(12px + env(safe-area-inset-top));right:12px;width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:28px;line-height:1}
+.zoom-close:hover{background:rgba(255,255,255,.24)}
+.zoom-tools{position:absolute;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translateX(-50%);display:flex;gap:6px;padding:6px;border-radius:999px;background:rgba(255,255,255,.14)}
+.zoom-btn{min-width:48px;height:44px;border:0;border-radius:999px;background:transparent;color:#fff;font-size:1.25rem;font-weight:800}
+.zoom-btn[data-act="reset"]{font-size:.9rem}
+.zoom-btn:hover{background:rgba(255,255,255,.18)}
+.zoom-close:focus-visible,.zoom-btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.zoom-hint{position:absolute;top:calc(24px + env(safe-area-inset-top));left:16px;right:72px;margin:0;color:rgba(255,255,255,.8);font-size:.85rem;pointer-events:none}
+@media (hover:hover) and (pointer:fine){.zoom-hint{display:none}}
+
+/* =========================================================
+   v56 — 모바일 날짜 줄바꿈 · 글자 대비(접근성) 보정
+   ========================================================= */
+:root{
+  --pink:#d81167;       /* 흰 글자 대비 5.0:1, 연분홍 배경 위 글자 4.5:1 */
+  --pink-600:#b80d56;
+  --sky-600:#0a6aa6;    /* 연하늘 배경 위 글자 5.4:1 */
+}
+.nw{white-space:nowrap}
+.dday-badge{background:linear-gradient(145deg,#d81167,#b80d56);box-shadow:0 12px 24px rgba(216,17,103,.28)}
+.dday-badge span{opacity:1}
+.prize.rank-3 b{color:#8a3a07}
+.apply-v32-num{color:#667085}
+.apply-v32-badge.blue{background:var(--sky-600)}
+@media (max-width:640px){
+  .hero-facts dd .nw{display:block}
+  .hero-facts dd .nw + br + b{margin-left:0}
+  .hero-facts dd{min-width:0}
+}
+@media (max-width:640px){
+  .hero-info-inner{grid-template-columns:auto minmax(0,1fr)}
+  .hero-facts dd b{white-space:normal}
+  .hero-facts dd .nw + br + b{white-space:nowrap}
+}
+@media (max-width:360px){
+  .hero-info-inner{gap:10px;padding:14px}
+  .dday-badge{width:68px;height:68px;border-radius:16px}
+  .dday-badge strong{font-size:1.25rem}
+  .dday-badge span{font-size:.6rem}
+  .hero-facts dt{width:26px}
+  .hero-facts>div{gap:6px}
+}
