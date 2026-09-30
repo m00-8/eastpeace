@@ -659,3 +659,9 @@ p{margin:0}
   .hero-facts dt{width:26px}
   .hero-facts>div{gap:6px}
 }
+@media (max-width:640px){
+  .hero-facts dd.venue b.nw{display:block;margin-left:0}
+}
+@media (max-width:360px){
+  .hero-facts dd.venue .nw{white-space:normal}
+}
