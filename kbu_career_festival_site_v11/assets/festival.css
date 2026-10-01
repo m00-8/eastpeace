@@ -673,3 +673,15 @@ p{margin:0}
 
 /* v63 — 채용정보 상세: 링크 없는 안내 행 */
 .job-link-row span{color:var(--text);font-weight:600}
+
+/* v73: 디에이치엠엔텍 로고 — 세로형 로고라 칸 안에서 크게 표시 (원본 362x371px, 표시 높이는 원본 절반 이하로 유지해 고해상도 화면에서도 선명) */
+.home-partner-logo img[src*="dhm-tech.png"]{max-height:78px;max-width:100%}
+.company-info-logo img[src*="dhm-tech.png"]{max-height:112px;max-width:100%}
+.recruit-logo img[src*="dhm-tech.png"]{max-height:62px;max-width:100%}
+.employer-logo img[src*="dhm-tech.png"]{max-height:96px}
+@media (max-width:640px){
+  .home-partner-logo img[src*="dhm-tech.png"]{max-height:58px}
+  .company-info-logo img[src*="dhm-tech.png"]{max-height:92px}
+  .recruit-logo img[src*="dhm-tech.png"]{max-height:48px}
+  .employer-logo img[src*="dhm-tech.png"]{max-height:86px}
+}
