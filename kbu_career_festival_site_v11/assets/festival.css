@@ -685,3 +685,7 @@ p{margin:0}
   .recruit-logo img[src*="dhm-tech.png"]{max-height:48px}
   .employer-logo img[src*="dhm-tech.png"]{max-height:86px}
 }
+
+/* v74: 타임테이블 이미지 2장 간격 */
+.timetable-image-wrap + .timetable-image-wrap{margin-top:32px}
+@media (max-width:640px){.timetable-image-wrap + .timetable-image-wrap{margin-top:20px}}
