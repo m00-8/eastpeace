@@ -689,3 +689,7 @@ p{margin:0}
 /* v74: 타임테이블 이미지 2장 간격 */
 .timetable-image-wrap + .timetable-image-wrap{margin-top:32px}
 @media (max-width:640px){.timetable-image-wrap + .timetable-image-wrap{margin-top:20px}}
+
+/* v86: 기업설명회 장소 표시 */
+.briefing-info{display:flex;flex-direction:column;gap:2px;min-width:0}
+.briefing-place{font-size:.88rem;font-weight:600;color:var(--muted)}
